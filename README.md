@@ -9,6 +9,7 @@ git clone https://github.com/lakshmant006-code/claude-skills.git
 cp -r claude-skills/skills/instagram/ig-* ~/.claude/skills/
 cp -r claude-skills/skills/anthropic/* ~/.claude/skills/
 cp -r claude-skills/skills/brag/brag ~/.claude/skills/
+cp -r claude-skills/skills/remotion/remotion-motion-graphics ~/.claude/skills/
 ```
 
 Copy only the folders you want. Each folder with a `SKILL.md` is one skill.
@@ -40,6 +41,14 @@ From [latent-spaces/brag](https://github.com/latent-spaces/brag) v0.5.0, MIT lic
 | skill | what it does |
 | --- | --- |
 | `brag` | Turn the current project website into a short, polished, shareable launch video using Hyperframes |
+
+## Remotion (`skills/remotion/`)
+
+From [haidrrrry/claude-remotion-skill](https://github.com/haidrrrry/claude-remotion-skill), MIT license (see `skills/remotion/LICENSE`). Needs Node and a Remotion project (`npm install remotion @remotion/cli react react-dom`).
+
+| skill | what it does |
+| --- | --- |
+| `remotion-motion-graphics` | Create and edit professional motion graphics videos with Remotion (React-based video) |
 
 ## Anthropic example skills (`skills/anthropic/`)
 
