@@ -8,6 +8,7 @@ A collection of Claude Code skills, collected from the skills installed in my Cl
 git clone https://github.com/lakshmant006-code/claude-skills.git
 cp -r claude-skills/skills/instagram/ig-* ~/.claude/skills/
 cp -r claude-skills/skills/anthropic/* ~/.claude/skills/
+cp -r claude-skills/skills/brag/brag ~/.claude/skills/
 ```
 
 Copy only the folders you want. Each folder with a `SKILL.md` is one skill.
@@ -31,6 +32,14 @@ From [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/
 | `ig-repurpose` | Turn one long asset - a YouTube video, podcast, livestream, newsletter, blog post or client call - into a week of reels and carousels |
 | `ig-story` | Write the day's Instagram Stories - the frame-by-frame sequence, which stickers to use where, and the one that moves people into the DMs |
 | `ig-viral` | Go and find the reels that are actually working right now in the user's niche, rank them by how far each beat its own account, name the hook formula each one used, and turn that into a swipe file they can shoot from |
+
+## Brag (`skills/brag/`)
+
+From [latent-spaces/brag](https://github.com/latent-spaces/brag) v0.5.0, MIT license (see `skills/brag/LICENSE`). Bundled music is "Happy Beats / Business Moves" by Sascha Ende, ende.app (CC BY 4.0). Sound effects are from [Kenney](https://kenney.nl/). Needs Node for `npx hyperframes`.
+
+| skill | what it does |
+| --- | --- |
+| `brag` | Turn the current project website into a short, polished, shareable launch video using Hyperframes |
 
 ## Anthropic example skills (`skills/anthropic/`)
 
